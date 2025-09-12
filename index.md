@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Chulapa on remote
-header_type: hero
-subtitle: Starter pack
+title: LABREUVOIR
+subtitle: GEX
+header_type: splash
+header_img: "https://dieghernan.github.io/chulapa/assets/img/site/transparent.png"
 ---
 
-Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
+
+Ceci est le début d'une longue amitié
+
+
 
 Contains basic configuration to get you a site with:
 
