@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Latest jekyll release
 gem 'jekyll', '~> 4.4'
-
+gem "chulapa-jekyll"
 group :jekyll_plugins do
   gem 'jekyll-algolia',       '~> 1.0'
   gem 'jekyll-github-metadata'

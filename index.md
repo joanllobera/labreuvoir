@@ -3,27 +3,19 @@ layout: default
 title: LABREUVOIR
 subtitle: GEX
 header_type: splash
-header_img: "https://dieghernan.github.io/chulapa/assets/img/site/transparent.png"
+header_img: "./assets/pics/abreuvoir_smaller.jpg"
 ---
 
 
-Ceci est le début d'une longue amitié
+L'abreuvoir est un petit espace culturel.
+
+On essaie d'organiser des expositions d'[art](./tags#art), des concerts de [musique](./tags#musique) et des ateliers à thématique diverse. 
+
+L'abreuvoir n'est pas encore ouvert. Si vous voulez être au courant de notre progrès, vous pouvez suivre notre [blog](./blog/), ou notre compte [instagram](https://www.instagram.com/abreuvoir.gex){:target="_blank"}.
 
 
 
-Contains basic configuration to get you a site with:
+Vous pouvez nous trouver à Gex, à la place Perdtemps, au coin de la ruelle des Issues.
 
-- Sample posts and [paginated blog index](./blog/).
-- Sample collection with Markdown and kramdown cheatsheets and [collection index](./cheatsheets).
-- Archive pages for posts grouped by year, category, and tag.
-- Github Action for deploying the site.
-- Demo page with the different Bootstrap components and how they look with the actual skin settings.
-- Sample 404 page.
-- Site search with Lunr.
-- Sample `_config` with minimal configuration. `primary` color is set to <span class="text-primary">LightSkyBlue</span> and `autothemer` is enabled. [Learn how to customize your site](https://dieghernan.github.io/chulapa/docs/03-theming).
-- Sample `algolia-search.yml` for using Algolia+GitHub Actions.
-- Sample files for extending the theme with your own scripts and css.
 
-On addition, `jekyll-sitemap` generates your sitemap on [./sitemap.xml](./sitemap.xml), and Chulapa generates an Atom feed on [./atom.xml](./atom.xml) and a RSS 2.0 feed on [./rss.xml](./rss.xml).
-
-[Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2754.6971534800095!2d6.0543894760925285!3d46.33570647487069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c603ff4bfda71%3A0x4c6ba4d923ebcea!2sL&#39;Abreuvoir!5e0!3m2!1sca!2sfr!4v1757746003301!5m2!1sca!2sfr" width="300" height="225" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

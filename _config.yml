@@ -10,21 +10,21 @@ remote_theme: dieghernan/chulapa
 # Overall options for your site, would affect your site SEO
 # Default values are explained
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : Chulapa 101    #default["repository_name"]
+title                   : L'abreuvoir    #default["repository_name"]
 title_separator         :     #default [" | "]
-subtitle                : Chulapa Jekyll Theme starter pack    #default [your-repository-tagline]  
-description             : Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
+subtitle                : Gex    #default [your-repository-tagline]  
+description             : L'abreuvoir de Gex #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
-repository              :     dieghernan/chulapa-101 # Needs to be set (e.g. dieghernan/chulapa)
+repository              :     https://github.com/joanllobera/labreuvoir/ #dieghernan/chulapa-101 # Needs to be set (e.g. dieghernan/chulapa)
 words_per_minute        :     #default[200]
-timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone                :     Europe/Paris #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # SEO
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  Your Name   # Name Surname Company
+  name                  :  Joan Llobera   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Gex, France"   # New York, USA 
 #  links:                
@@ -100,15 +100,15 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  Home # Title in navbar
+    title   :  L'abreuvoir # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    img     :  ./assets/pics/house-solid-full.svg # An small image, try 30x30px
   nav:
+  - title   : Contact # Label
+    url     : /blog/  # url  
   - title   : Blog # Label
     url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
-  - title   : Extras
+  - title   : Temp
     child   :
       - title : Tags
         url   : /tags
@@ -118,6 +118,8 @@ navbar:
         url   : /archive
       - title : Current skin
         url   : /current-skin
+      - title   : Cheatsheets
+        url     : /cheatsheets
   
 #  - title   : # Label submenu
 #    child:		
@@ -128,13 +130,19 @@ navbar:
 #Social links to be placed on your site footer
 footer:
   links:
-    #- label : Repo on Github # Label
-    #  icon  : fab fa-github # Fontawesome 5 icon
-    #  url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
-    # - label: "RSS"
-    #  icon: "fa fa-rss"
-    #  url:  "./atom.xml"
-  copyright: Joan Llobera @ 2025 # default is © <year> <name> 
+    # - label : Repo on Github # Label
+    #   icon  : fab fa-github # Fontawesome 5 icon
+    #   url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
+     - label: "RSS"
+       icon: "fa fa-rss"
+       url:  "./atom.xml"
+     - label : Instagram
+       icon  : "fa-brands fa-instagram" # Fontawesome 5 icon
+       url   : https://www.instagram.com/abreuvoir.gex/ # A link or email: https://twitter.com/jack, mail@example.com 
+  
+
+  copyright: © 2025 Llobera Costa # default is © <year> <name>
+ # default is © <year> <name> 
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
@@ -235,6 +243,7 @@ exclude:
 
 include:
  - _pages
+
 
 # Conversion
 markdown: kramdown
