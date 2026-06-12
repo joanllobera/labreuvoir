@@ -5,6 +5,7 @@ header_img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Cour
 tags: [musique, downtown]
 author: Joan
 location: "Gex"
+categories: [music]
 last_modified: 2025-09-13
 ---
 

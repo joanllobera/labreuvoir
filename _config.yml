@@ -104,8 +104,8 @@ navbar:
     url     :  # default["url/baseurl"]
     img     :  ./assets/pics/house-solid-full.svg # An small image, try 30x30px
   nav:
-  - title   : Contact # Label
-    url     : /blog/  # url  
+  - title   : Music # Label
+    url     : /music/  # url  
   - title   : Blog # Label
     url     : /blog/ # url	
   - title   : Temp
@@ -133,12 +133,12 @@ footer:
     # - label : Repo on Github # Label
     #   icon  : fab fa-github # Fontawesome 5 icon
     #   url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
-     - label: "RSS"
-       icon: "fa fa-rss"
-       url:  "./atom.xml"
-     - label : Instagram
-       icon  : "fa-brands fa-instagram" # Fontawesome 5 icon
-       url   : https://www.instagram.com/abreuvoir.gex/ # A link or email: https://twitter.com/jack, mail@example.com 
+    # - label: "RSS"
+    #   icon: "fa fa-rss"
+    #   url:  "./atom.xml"
+    # - label : Instagram
+    #   icon  : "fa-brands fa-instagram" # Fontawesome 5 icon
+    #   url   : https://www.instagram.com/abreuvoir.gex/ # A link or email: https://twitter.com/jack, mail@example.com 
   
 
   copyright: © 2025 Llobera Costa # default is © <year> <name>
@@ -170,6 +170,8 @@ collections:
   cheatsheet:
     output: true
     permalink: /cheatsheets/:name
+  music:
+    output: true
 collections_dir     : 
 permalink           : /:year:month:day_:title/
 
@@ -205,20 +207,25 @@ defaults:
       breadcrumb_list   :
         - label: Blog
           url: /blog/
-  -
+  # -
+  #   scope:
+  #     path: ""
+  #     type: "cheatsheet"
+  #   values:
+  #     header_type       : "hero"
+  #     show_bottomnavs   : true
+  #     show_sociallinks  : true
+  #     include_on_search : true
+  #     show_breadcrumb   : true
+  #     breadcrumb_list   :
+  #       - label: Cheatsheets
+  #         url: /cheatsheets
+  - 
     scope:
-      path: ""
-      type: "cheatsheet"
+      path: "assets/pics/highlights"
     values:
-      header_type       : "hero"
-      show_bottomnavs   : true
-      show_sociallinks  : true
-      include_on_search : true
-      show_breadcrumb   : true
-      breadcrumb_list   :
-        - label: Cheatsheets
-          url: /cheatsheets
-
+      image_col: gallery
+      index_sort: true
 
 # XX. Other settings - no need to modify
 # HTML Compression
