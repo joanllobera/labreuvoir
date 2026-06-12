@@ -105,9 +105,9 @@ navbar:
     img     :  ./assets/pics/house-solid-full.svg # An small image, try 30x30px
   nav:
   - title   : Music # Label
-    url     : /music/  # url  
+    url     : /music  # url  
   - title   : Blog # Label
-    url     : /blog/ # url	
+    url     : /blog # url	
   - title   : Temp
     child   :
       - title : Tags
